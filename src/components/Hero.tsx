@@ -191,7 +191,6 @@ export default function Hero({ isPageReady = true }: { isPageReady?: boolean }) 
           autoPlay
           loop
           muted={isMuted}
-          defaultMuted
           playsInline
           preload="auto"
           onPlay={() => setIsPlaying(true)}
